@@ -1,0 +1,110 @@
+html{
+  font-family: 'Open Sans', sans-serif;
+}
+.pacifica-logo{
+  height: 3em;
+}
+.fishes{
+  height: 90vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url(../assets/images/experiment-1.png); */
+  background-image: url(../assets/images/plateado.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-effect{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fish{
+    position: absolute;
+    top: 10em;
+    left: 49em;
+}
+.info-section{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.info-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
+}
+
+.info-paragraph{
+  width: 50%;
+}
+.info-img{
+  height: 30vh;
+  width: auto;
+}
+.cards {
+  display: flex;
+  align-content: center;
+  max-width: 35em;
+}
+
+.cardWrapper {
+  overflow: hidden;
+}
+
+.cardWrapper:last-child, .cardWrapper:hover {
+    overflow: visible;
+}
+
+.card {
+    width: 10em;
+    min-width: 10em;
+    height: 6em;
+    border-radius: 0.5em;
+    border: solid #666 1px;
+    background-color: #ccc;
+    padding: 0.25em;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* media queries for screen adjustment */
+@media screen and (max-width: 1440px) {
+    .fish{
+        left: 35em;
+    }
+  }
+@media screen and (max-width: 1024px) {
+    .fish{
+        left: 24em;
+    }
+  } 
+
+  @media screen and (max-width: 768px) {
+    .fish{
+        left: 15em;
+    }
+  } 
+  @media screen and (max-width: 425px) {
+    .fish{
+        left: 3em;
+    }
+  } 
+  @media screen and (max-width: 375px) {
+    .fish{
+        left: 1em;
+    }
+  } 
+  @media screen and (max-width: 320px) {
+    .fish{
+        left: 0.1em;
+    }
+  } 
