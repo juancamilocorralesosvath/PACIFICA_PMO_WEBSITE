@@ -77,34 +77,9 @@ html{
     align-items: center;
 }
 /* media queries for screen adjustment */
-@media screen and (max-width: 1440px) {
-    .fish{
-        left: 35em;
-    }
-  }
-@media screen and (max-width: 1024px) {
-    .fish{
-        left: 24em;
-    }
-  } 
 
   @media screen and (max-width: 768px) {
     .fish{
         left: 15em;
-    }
-  } 
-  @media screen and (max-width: 425px) {
-    .fish{
-        left: 3em;
-    }
-  } 
-  @media screen and (max-width: 375px) {
-    .fish{
-        left: 1em;
-    }
-  } 
-  @media screen and (max-width: 320px) {
-    .fish{
-        left: 0.1em;
     }
   } 

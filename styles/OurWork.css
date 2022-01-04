@@ -1,0 +1,49 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+
+}
+html h1{
+    font-family: 'Source Code Pro', monospace;
+}
+.landing-background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/images/bg-pacifica-2.png);
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.landing-background h1{
+    width: 70%;
+}
+ .pacifica-logo{
+    height: 3em;
+}
+
+.go-up-effect{
+    position: absolute;
+    top: 990px;
+    left: 10px;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(216, 191, 216, 0.178);
+    width: 71%;
+    border-radius: 10px;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(45, 5, 83, 0.945);
+    padding-top: 40px;
+}
+.quote-title{
+    width: 65%;
+    color: white;
+}

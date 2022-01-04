@@ -2,6 +2,9 @@ html{
     font-family: 'Open Sans', sans-serif;
 
 }
+html h1{
+    font-family: 'Source Code Pro', monospace;
+}
 .landing-background{
     display: flex;
     flex-direction: column;
@@ -104,10 +107,7 @@ html{
     font-size: 28px;
 }
 .elegant-numbers-section{
-   /*  background-image: url(../assets/SVG/endless-constellation.svg); */
    background-color: #EBF0F2;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* color: #fff; */
     padding-top: 90px;
     padding-bottom: 70px;
     text-align: center;
@@ -133,6 +133,9 @@ html{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.csr h1, h5{
+    font-family: 'Source Code Pro', monospace;
+}
 .card-image{
     height: 10em;
     width: 10em;
@@ -149,4 +152,7 @@ html{
     justify-content: center;
     align-items: center;
     background-color: #EBF0F2;
+}
+.susdev h1{
+    font-family: 'Source Code Pro', monospace;
 }
