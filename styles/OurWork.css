@@ -2,25 +2,31 @@ html{
     font-family: 'Open Sans', sans-serif;
 
 }
-html h1{
+html h1, h2, h3, h4, h5{
     font-family: 'Source Code Pro', monospace;
 }
 .landing-background{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-end;
     width: 100%;
-    height: 100vh;
-    background-image: url(../assets/images/bg-pacifica-2.png);
+    height: 360px;
+    background-image: url(../assets/images/our-work/team.jpg);
     background-position: center;
+    background-size: cover;
     text-align: center;
-    color: aliceblue;
+    color: black;
     text-align: center;
     font-family: 'Source Code Pro', monospace;
 }
 .landing-background h1{
-    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.849);
 }
  .pacifica-logo{
     height: 3em;
@@ -46,4 +52,46 @@ html h1{
 .quote-title{
     width: 65%;
     color: white;
+}
+
+.introductory-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: #EBF0F2; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.introductory-text p{
+    width: 50%;
+}
+
+.my-icon{
+    background: linear-gradient(225deg,#e25911,#ed6d0f);
+    border-radius: 50%; 
+    padding: 0.3em;
+}
+.my-card{
+    box-shadow: 5px 5px 20px;
+}
+.my-card:hover{ 
+    cursor: pointer;
+    animation: bounce 0.99s linear;
+}
+
+@keyframes bounce{ 
+    20%, 50%, 80%, to{
+        transform: translateY(0);
+    }
+    40%{ 
+        transform: translateY(-30px);
+    }
+    70%{ 
+        transform: translateY(-15px);
+    }
+    90%{ 
+        transform: translateY(-4px);
+    }
 }
