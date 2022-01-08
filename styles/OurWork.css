@@ -4,6 +4,7 @@ html{
 }
 html h1, h2, h3, h4, h5{
     font-family: 'Source Code Pro', monospace;
+    text-align: center;
 }
 .landing-background{
     display: flex;
@@ -80,6 +81,81 @@ html h1, h2, h3, h4, h5{
     cursor: pointer;
     animation: bounce 0.99s linear;
 }
+.skills{
+    text-align: center;
+    background-color: #EBF0F2;
+    display: flex;
+    justify-content: center;
+}
+.skills-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.skills-take-two{
+    width: 100%;
+}
+.awesome-quote-div{
+    display: flex;
+    justify-content: center;
+    background-color: #0a8f36;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.awesome-quote-div h1{
+    font-family: 'Source Code Pro', monospace;
+    line-height: 40px;
+    width: 50%;
+    font-size: 28px;
+}
+.icons-box{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.my-card-two:hover{
+    cursor: pointer;
+    background-color: rgba(69, 240, 160, 0.486);
+}
+.compromises{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #EBF0F2;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.know-how{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes bounce{ 
     20%, 50%, 80%, to{
