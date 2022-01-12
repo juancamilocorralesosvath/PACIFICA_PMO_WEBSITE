@@ -2,7 +2,7 @@ html{
     font-family: 'Open Sans', sans-serif;
 
 }
-html h1{
+html h1, h2, h3, h4, h5{
     font-family: 'Source Code Pro', monospace;
 }
 .landing-background{
@@ -136,16 +136,20 @@ html h1{
 .csr h1, h5{
     font-family: 'Source Code Pro', monospace;
 }
-.card-image{
-    height: 10em;
-    width: 10em;
-    border-radius: 5px;
+
+.my-awesome-image:hover{
+   transform: matrix(2, 0, 0, 2, 0, 0);
 }
 .my-card-bro{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.my-card-bro:hover{
+    background-color: #EBF0F2;
+}
+
+
 .susdev{
     display: flex;
     flex-direction: column;

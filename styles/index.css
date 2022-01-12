@@ -40,10 +40,6 @@ html{
   align-items: center;
   width: 65%;
 }
-
-.info-paragraph{
-  width: 50%;
-}
 .info-img{
   height: 30vh;
   width: auto;
@@ -75,7 +71,7 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} 
 /* media queries for screen adjustment */
 
   @media screen and (max-width: 768px) {
