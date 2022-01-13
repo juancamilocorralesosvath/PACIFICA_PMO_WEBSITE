@@ -44,6 +44,10 @@ html h1, h2, h3, h4, h5{
     width: 71%;
     border-radius: 10px;
 }
+.intro{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
 .experiment{
     display: flex;
     align-items: center;
@@ -98,4 +102,27 @@ html h1, h2, h3, h4, h5{
 .info-img{
     height: 30vh;
     width: auto;
+}
+.my-sexy-body{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+} 
+.awesome-quote-div{
+    display: flex;
+    justify-content: center;
+    background-color: #0a8f36;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.awesome-quote-div h1{
+    font-family: 'Source Code Pro', monospace;
+    line-height: 40px;
+    width: 50%;
+    font-size: 28px;
 }
