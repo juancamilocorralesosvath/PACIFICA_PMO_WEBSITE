@@ -22,11 +22,7 @@ html{
   justify-content: center;
   align-items: center;
 }
-.fish{
-    position: absolute;
-    top: 10em;
-    left: 49em;
-}
+
 .info-section{
   display: flex;
   align-items: center;
@@ -44,38 +40,3 @@ html{
   height: 30vh;
   width: auto;
 }
-.cards {
-  display: flex;
-  align-content: center;
-  max-width: 35em;
-}
-
-.cardWrapper {
-  overflow: hidden;
-}
-
-.cardWrapper:last-child, .cardWrapper:hover {
-    overflow: visible;
-}
-
-.card {
-    width: 10em;
-    min-width: 10em;
-    height: 6em;
-    border-radius: 0.5em;
-    border: solid #666 1px;
-    background-color: #ccc;
-    padding: 0.25em;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} 
-/* media queries for screen adjustment */
-
-  @media screen and (max-width: 768px) {
-    .fish{
-        left: 15em;
-    }
-  } 

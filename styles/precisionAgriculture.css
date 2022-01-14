@@ -46,62 +46,11 @@ html h1, h2, h3, h4, h5{
 }
 .intro{
     margin-top: 90px;
-    margin-bottom: 90px;
+    margin-bottom: 150px;
 }
-.experiment{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    background-color: red;
-}
-.left-image-container{
-    width: 50%;
-    height: 100%;
-}
-.mini-experiment{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: end;
-}
-.mini-experiment img{
-    height: 20rem;
-}
-.left-side-image{
-    height: 15rem;
-}
-.right-side-text{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.mini-experiment-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .second{
     background-color: #EBF0F2;
-}
-.info-section{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.info-left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 65%;
-}
-.info-img{
-    height: 30vh;
-    width: auto;
 }
 .my-sexy-body{
     display: flex !important;

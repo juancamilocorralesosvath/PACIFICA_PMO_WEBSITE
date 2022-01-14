@@ -122,6 +122,13 @@ html h1, h2, h3, h4, h5{
     justify-content: space-evenly;
     align-items: center;
 }
+.my-card-two {
+    height: 188px;
+}
+.my-card-two h5{
+    color: yellow;
+    background-color: black;
+}
 .my-card-two:hover{
     cursor: pointer;
     background-color: rgba(69, 240, 160, 0.486);
